@@ -1,0 +1,21 @@
+{
+  "name": "industrial-api",
+  "version": "1.0.0",
+  "description": "Backend Estruturado em M.E.V.N para a agência industrial.",
+  "author": "TutorFx <gabriel_serejo@live.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.8",
+    "nodemailer": "^6.7.2",
+    "nodemailer-express-handlebars": "^4.0.0"
+  }
+}
