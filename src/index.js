@@ -14,6 +14,14 @@ require('./controllers/docs')(app);
 require('./controllers/project')(app);
 require('./controllers/user')(app);
 
+router.get('/', async (req, res) => {
+    try {
+        res.status(200).send({status: 'ok'});
+    } catch (err) {
+        return res.status(400).send({error: ':('});
+    }
+});
+
 const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
