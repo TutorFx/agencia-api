@@ -9,7 +9,8 @@
     "node": "16.x"
   },
   "scripts": {
-    "dev": "node src/index.js"
+    "dev": "node src/index.js",
+    "npm run vercel-build": "npm run dev && vercel --open"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
