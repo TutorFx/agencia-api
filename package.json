@@ -6,11 +6,11 @@
   "main": "index.js",
   "license": "MIT",
   "engines": {
-    "node": "14.x" 
+    "node": "16.x"
   },
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "node src/index.js",
+    "npm run vercel-build": "npm run dev && vercel --open"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
